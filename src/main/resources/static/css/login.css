@@ -1,0 +1,19 @@
+html {
+    box-sizing: border-box;
+    height: 100%;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    align-items: center;
+    width: 50%;
+    margin: 0 auto;
+    background: linear-gradient(320deg, #123111, #535353, #777777);
+}
